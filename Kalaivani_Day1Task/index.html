@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cafe Bliss</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <h1>Cafe Bliss</h1>
+    <nav>
+      <ul class="nav-list">
+        <li><a href="#about">About</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>To me, the smell of fresh-made coffee is one of the greatest inventions</p>
+    <img src="images\Cafe-Logo.jpg" alt="Cafe Interior" height="400" width="500">
+  </section>
+  <section id="menu" class="menu">
+    <h2>Our Menu</h2>
+    <table>
+      <tr>
+        <th>Item</th>
+        <th>Price</th>
+      </tr>
+      <tr>
+        <td>Cool Beans Cafe</td>
+        <td>$3.00</td>
+      </tr>
+      <tr>
+        <td>Latte</td>
+        <td>$4.00</td>
+      </tr>
+      <tr>
+        <td>Radiant Roast Cafe</td>
+        <td>$2.50</td>
+      </tr>
+    </table>
+  </section>
+  <section id="contact" class="contact">
+    <h2>Get in Touch with Us</h2>
+    <form>
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" placeholder="Enter your full name" required>
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" placeholder="Enter your email address" required>
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" placeholder="Enter your phone number (optional)">
+      <label for="message">Your Message:</label>
+      <textarea id="message" placeholder="Write your message here..." rows="5" required></textarea>
+      <button type="submit">Send Message</button>
+      <button type="reset">Clear Form</button>
+    </form>
+  </section>
+  
+  <footer class="footer">
+    <p>&copy; 2024 Cafe Bliss. All rights reserved.</p>
+  </footer>
+</body>
+</html>
